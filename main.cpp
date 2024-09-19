@@ -12,13 +12,14 @@ int main(int argc, char const *argv[]) {
     cout << endl;
 
     auto start = chrono::high_resolution_clock::now();
+    // bubbleSort(data);
     // selectSort(data);
     // insertSort(data);
     // shelltSort(data);
-    // heapSort(data);
-    radixSort(data);
     // quickSort(data, 0, data.size() - 1);
     // mergeSort(data, 0, data.size() - 1);
+    // heapSort(data);
+    radixSort(data);
     auto end = chrono::high_resolution_clock::now();
     chrono::duration<double, std::milli> tm = end - start; // 毫秒
 
