@@ -14,9 +14,9 @@ void radixSort(vector<int> &vec) {
 
     for (size_t i = 0; i < len; i++) {
         bucket.resize(10);
-        for (size_t j = 0; j < vec.size(); j++) {
-            int num = vec[j] % mod / dev;
-            bucket[num].push_back(vec[j]);
+        for (auto &it : vec) {
+            int num = it % mod / dev;
+            bucket[num].emplace_back(it);
         }
 
         int index = 0;

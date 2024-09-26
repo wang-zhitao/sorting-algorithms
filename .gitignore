@@ -30,6 +30,7 @@
 *.exe
 *.out
 *.app
-
+test.cpp
+*.out
 /build
 /lib

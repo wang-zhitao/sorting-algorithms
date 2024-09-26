@@ -15,8 +15,8 @@ int main(int argc, char const *argv[]) {
     // bubbleSort(data);
     // selectSort(data);
     // insertSort(data);
-    shelltSort(data);
-    // quickSort(data, 0, data.size() - 1);
+    // shelltSort(data);
+    quickSort(data, 0, data.size() - 1);
     // mergeSort(data, 0, data.size() - 1);
     // heapSort(data);
     // radixSort(data);
